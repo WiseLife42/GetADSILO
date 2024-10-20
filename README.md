@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/WiseLife42/GetADPSO/main/GetADSILO.py
 ```
 # python3 GetADSILO.py -h
 
-usage: GetADSILO_v2.py [-h] -u USERNAME -p PASSWORD -d DOMAIN --dc-host DC_HOST [--kerberos] [--ccache CCACHE] [-v]
+usage: GetADSILO.py [-h] -u USERNAME -p PASSWORD -d DOMAIN --dc-host DC_HOST [--kerberos] [--ccache CCACHE] [-v]
 
 Script to query authentication silos in Active Directory and list associated members.
 
