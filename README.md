@@ -3,7 +3,7 @@ GetADSILO is a Python script that queries Active Directory to list users and com
 
 The script performs the following actions:
 * Displays users with SILO applied.
-* Displays groups with SILO applied.
+* Displays computers with SILO applied.
 
 # Installation
 ## Prerequisites
