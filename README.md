@@ -6,21 +6,24 @@ The script performs the following actions:
 * Displays computers with SILO applied.
 
 # Installation
-## Prerequisites
-* Python3
-* ldap3
-* pycryptodome
-    
+
+### With source :
 ```
-pip install ldap3 pycryptodome
-wget https://raw.githubusercontent.com/WiseLife42/GetADPSO/main/GetADSILO.py
+git clone https://github.com/WiseLife42/GetADSILO
+cd GetADSILO/
+pip install .
+```
+
+### With pip :
+```
+pip install GetADSILO
 ```
 
 # Usage
 ```
-# python3 GetADSILO.py -h
+# GetADSILO
 
-usage: GetADSILO.py [-h] -u USERNAME -p PASSWORD -d DOMAIN --dc-host DC_HOST [--kerberos] [--ccache CCACHE] [-v]
+usage: GetADSILO [-h] -u USERNAME -p PASSWORD -d DOMAIN --dc-host DC_HOST [--kerberos] [--ccache CCACHE] [-v]
 
 Script to query authentication silos in Active Directory and list associated members.
 
